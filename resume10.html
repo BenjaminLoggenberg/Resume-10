@@ -16,14 +16,29 @@
 
 <body class="mx-sm-4">
 
+
+
+
+
+    <div class="jumbotron-fluid px-3 override-jumbotron">
+        <h1 class="display-4">Welcome to my resume</h1>
+        <p class="lead">This site is all about my experiences and portfolio! You can find my CV as well as more
+            about
+            who I am down below.</p>
+        <hr class="my-4">
+        <p>Click the button, come on, I dare you!</p>
+        <a class="btn btn-outline-light btn-lg" href="#TopSection" role="button">Get
+            Started</a>
+    </div>
+
     <!--this is my header-->
     <header class="py-3">
         <section id="Heading" class="col mx-3">
 
             <picture>
-                <source media="(max-width: 950px)" srcset="images/benShouldersPp.jpg">
-                <source media="(max-width: 450px)" srcset="images/benFacePp.jpg">
-                <img src="images/benPp.jpg" alt="Benjamin Profile Picture">
+                <source media="(max-width: 950px)" srcset="images/benShouldersPp.jpg" class="py-3">
+                <source media="(max-width: 450px)" srcset="images/benFacePp.jpg" class="py-3">
+                <img src="images/benPp.jpg" alt="Benjamin Profile Picture" class="py-3">
             </picture>
 
 
@@ -41,7 +56,7 @@
 
     <main>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light m-3">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light m-3 sticky-top">
             <div class="container-fluid">
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -50,18 +65,21 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#carouselExampleCaptions">Interests</a>
+                            <a class="nav-link active" href="#carouselExampleCaptions">Interests</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Portfolio
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#EducationHeader">Education</a></li>
+                                <li><a class="dropdown-item" href="#Education">Education</a></li>
                                 <li><a class="dropdown-item" href="#JobExperience">Job Experience</a></li>
                                 <li><a class="dropdown-item" href="#Skills">Skills</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ContactDetails">Contact</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -72,16 +90,19 @@
             </div>
         </nav>
 
+        <nav aria-label="breadcrumb" class="mx-3">
+            <ol class="breadcrumb">
 
+                <li class="breadcrumb-item"><a href="#"> <small>Home</small></a></li>
+                <li class="breadcrumb-item"><a href="#Education"><small>Education</small></a></li>
+                <li class="breadcrumb-item"><a href="#JobExperience"><small>Job Experience</small></a></li>
+                <li class="breadcrumb-item"><a href="#Skills"><small>Skills</small></a></li>
+                <li class="breadcrumb-item active" aria-current="page" href="#carouselExampleCaptions">
+                    <small>Interests</small>
+                </li>
 
-
-
-
-
-
-
-
-
+            </ol>
+        </nav>
 
         <div id="Content">
             <article>
@@ -220,17 +241,18 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active override-interests">
 
                     <img src="/images/benDj.jpg" class="d-block w-100">
 
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Music</h5>
-                        <p>Benjamin plays guitar and is a professional DJ and Producer. He has a deep passion and values
+                        <h5 class="text-light">Music</h5>
+                        <p>Benjamin plays guitar and is a professional DJ and Producer. He has a deep
+                            passion and values
                             music.</p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item override-interests">
                     <img src="/images/surfBackground.jpg" class="d-block w-100" alt="Surf Background">
 
                     <div class="carousel-caption d-none d-md-block">
@@ -240,7 +262,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item override-interests">
                     <img src="/images/wedding.jpg" class="d-block w-100" alt="wedding">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Socializing and family</h5>
@@ -262,38 +284,6 @@
         </div>
 
 
-
-        <div class="m-3">
-            <section id="Interests" class="p-3">
-                <h2 id="InterestsHeading">Interests</h2>
-                <div class="px-1">
-                    <img class="rightsidelogos" src="icons/surf.png" alt="Interests Logo" width="200px">
-                </div>
-                <ul>
-                    <h3>
-                        <li>Music</li>
-                    </h3>
-                    Benjamin plays guitar and is a professional DJ and Producer. He has a deep passion and values
-                    music.
-                    <p>
-                    <h3>
-                        <li>Nature</li>
-                    </h3>
-                    Benjamin is obsessed with nature. He loves to surf, spend long hours in the sun and go for
-                    breathtaking
-                    hikes in the most beautiful spots in South Africa.
-                    </p>
-                    <h3>
-                        <li>Socializing and family</li>
-                    </h3>
-                    Benjamin is a family man. He loves spending quality time with his loved ones<br> and fostering
-                    relationships
-                    where he can add value.
-                </ul>
-
-                </article>
-            </section>
-        </div>
     </main>
     <footer>
         <section id="Footer" class="m-3">

@@ -17,6 +17,21 @@ overflow: unset;*/
   color: #ffffff;
 }
 
+.override-jumbotron {
+  background-color: #284B63 !important;
+  color: white !important;
+}
+
+.display-4 {
+  border: 0 !important;
+  color: #B3DFFD !important;
+}
+
+.override-interests {
+  width: 800px !important;
+  height:400px !important;
+   margin-left: 27% !important;
+}
 
 #PP {
   margin-top: 20px;
