@@ -22,10 +22,11 @@ overflow: unset;*/
   color: white !important;
 }
 
-.display-4 {
+.override-welcome {
   border: 0 !important;
   color: #B3DFFD !important;
 }
+
 
 .override-interests {
   width: 800px !important;
