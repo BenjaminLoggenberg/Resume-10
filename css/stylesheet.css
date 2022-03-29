@@ -27,7 +27,7 @@ overflow: unset;*/
   color: #B3DFFD !important;
 }
 
-
+/**struggling to center align the carousel without using this margin**/
 .override-interests {
   width: 800px !important;
   height:400px !important;
@@ -130,14 +130,6 @@ main {
   background-color: #FFFFFF;
 
 }
-
-#Interests {
-color: black;
-background:#FFFFFF url(/images/surfBackground.jpg);
-background-position: center;
-background-repeat: repeat;
-}
-
 
 
 #Skill {
@@ -372,23 +364,3 @@ color:  #353535;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .rightsidelogos {
-    max-width: 100%;
-    display: inline-block;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .rightsidelogos {
-    max-width: 100%;
-    display: inline-block;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .rightsidelogos {
-    max-width: 100%;
-    display: inline-block;
-  }
-}
