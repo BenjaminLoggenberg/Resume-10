@@ -25,7 +25,7 @@
         <hr class="my-4">
         <p>Click the button, come on, I dare you!</p>
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Get Started
         </button>
 
@@ -308,6 +308,21 @@
 
     </main>
     <footer id="Footer" class="m-3">
+
+        <div class="row override-card">
+            <div class="col-sm-4 p-5 m-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Get in touch</h5>
+                        <p class="card-text">If you are interested in getting in touch click below</p>
+                        <a href="mailto:bloggenberg97@gmail.com" class="btn btn-dark">Email Benjamin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <h3 id="contactDetails" class="pt-3 h3">Contact Details</h3>
 
         <a href="https://www.linkedin.com/in/benjamin-loggenberg-508837192/" target="_blank"> <img class="img-fluid"
@@ -323,17 +338,23 @@
 
         <!--Giving an option for people to leave their email contact details for me to contact then imstead-->
 
-        <label class="reachMe h5" for="Name">Request an interview:</label>
-        <input class="reachMe" name="Your Email Here" type="email" placeholder="Email Here">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Request An Interview</label>
+                <input type="email" class="form-control col-auto override-form" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
 
         <!--Adding in extra section where people can use an href link to directly call or email me-->
-        <a href="tel://+27726733820" class="iconsLeft">Call Me<img src="icons/cell.png" alt="Benjamin Cellphone number"
-                width="30px"></a>
-        <p>
-            <a href="mailto:bloggenberg97@gmail.com" class="iconsLeft h5">Mail Me<img src="icons/mail.png"
-                    alt="Benjamin Email" width="30px"></a>
-        </p>
+
+
         <p><a href="#topSection" class="pb-3 h5">Go to top</p></a>
+
+
     </footer>
 
 

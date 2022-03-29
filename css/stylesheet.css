@@ -168,6 +168,15 @@ color:  #353535;
   font-weight: lighter;
 }
 
+.override-card {
+  text-align: center !important;
+}
+
+.override-form {
+padding-left: 48%;
+/**Please help fix margin-right**/
+}
+
 @media only screen and (max-width: 600px) {
   header {
     display: inline-block;
