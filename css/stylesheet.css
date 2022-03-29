@@ -81,13 +81,14 @@ a:hover {
 }
 
 header {
+
   background-color: #284B63;
   text-align: center;
 
   }
 
 #Heading {
-  color: #353535;
+  background-image: url("/images/backgroundImage.jpg");
   background-color: #FFFFFF;
 }
 
@@ -99,7 +100,6 @@ header {
 nav {
   color: #353535;
   background-color: #FFFFFF; 
-
 }
 
 #Menu {
@@ -137,6 +137,7 @@ main {
 }
 
 footer {
+  background-image: url("/images/footerBackground.jpg");
   color:  #353535;
   background-color: #284B63;
   text-align: center;
@@ -144,7 +145,6 @@ footer {
 
 #Footer {
   background-color: #FFFFFF;
- 
 }
 
 .iconsLeft {
