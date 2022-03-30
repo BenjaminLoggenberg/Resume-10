@@ -177,6 +177,26 @@ padding-left: 48%;
 /**Please help fix margin-right**/
 }
 
+
+.socialLogo:hover{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode;*/
+
+ animation: ease-in infinite forwards !important;
+  animation-name: socialLogoAnimate !important; 
+  animation-duration: 2s !important;
+  animation-direction: alternate-reverse !important;
+}
+
+@keyframes socialLogoAnimate{
+   0% {transform: rotate(-45deg) !important;}
+   50% {background-color: #353535;
+       transform: rotate(0deg) !important;}
+   100% {transform: rotate(45deg)!important;}
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
   header {
     display: inline-block;
