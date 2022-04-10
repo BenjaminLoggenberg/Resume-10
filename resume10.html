@@ -52,7 +52,7 @@
 
     <!--this is my header-->
     <header class="py-3">
-        <section id="Heading" class="col mx-3">
+        <section id="heading" class="col mx-3">
 
             <picture>
                 <source media="(min-width: 576px)" srcset="images/benPp.jpg" class="py-3">
@@ -63,7 +63,7 @@
             <div class="m-4">
                 <h1 class="p-4 h1 text-light">Benjamin Loggenberg Resume</h1>
             </div>
-            <p class="pb-3 text-light">I am a 24 Year old male from Cape Town, South Africa. With a
+            <p class="pb-3 text-light headingIntro">I am a 24 Year old male from Cape Town, South Africa. With a
                 newly discovered passion for tech, I am ready to tackle the world!</p>
         </section>
     </header>
@@ -87,38 +87,24 @@
                                 Portfolio
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#Education">Education</a></li>
-                                <li><a class="dropdown-item" href="#JobExperience">Job Experience</a></li>
-                                <li><a class="dropdown-item" href="#Skills">Skills</a></li>
+                                <li><a class="dropdown-item" href="#education">Education</a></li>
+                                <li><a class="dropdown-item" href="#jobExperience">Job Experience</a></li>
+                                <li><a class="dropdown-item" href="#skills">Skills</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#ContactDetails">Contact</a>
+                            <a class="nav-link" href="#contactDetails">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <nav aria-label="breadcrumb" class="mx-3">
-            <ol class="breadcrumb">
-
-                <li class="breadcrumb-item"><a href="#"> <small>Home</small></a></li>
-                <li class="breadcrumb-item"><a href="#Education"><small>Education</small></a></li>
-                <li class="breadcrumb-item"><a href="#JobExperience"><small>Job Experience</small></a></li>
-                <li class="breadcrumb-item"><a href="#Skills"><small>Skills</small></a></li>
-                <li class="breadcrumb-item active" aria-current="page" href="#carouselExampleCaptions">
-                    <small>Interests</small>
-                </li>
-
-            </ol>
-        </nav>
-
         <article id="Content">
 
             <div class="container-fluid">
                 <div class="row">
-                    <section id="Education" class="col m-3">
+                    <section id="education" class="col m-3">
 
                         <h2 class="col m-3 h2">Education</h2>
 
@@ -133,8 +119,8 @@
                             with Bachelors acceptance.
                             <picture>
                                 <source media="(min-width: 800px)" srcset="icons/education_logo.png">
-                                <img src="icons/education_logo.png" class="img-fluid float-end rightSideLogos"
-                                    alt="Education Logo">
+                                <img src="icons/education_logo.png"
+                                    class="img-fluid float-end rightSideLogos socialLogo" alt="Education Logo">
                             </picture>
                             <p>
                                 <li class="h4">University of Stellenbosch Business School</li>
@@ -161,8 +147,8 @@
                     </section>
 
 
-                    <section id="Jobs" class="col m-3">
-                        <h2 id="JobExperience" class="col m-3">Job Experience</h2>
+                    <section id="jobs" class="col m-3">
+                        <h2 id="jobExperience" class="col m-3">Job Experience</h2>
 
                         <ul>
 
@@ -173,7 +159,7 @@
                             <picture>
                                 <source media="(min-width: 800px)" srcset="icons/job_experience.png">
                                 <img src="icons/job_experience.png"
-                                    class="img-fluid align-items-center float-end rightSideLogos"
+                                    class="img-fluid align-items-center float-end rightSideLogos socialLogo"
                                     alt="Job Experience Logo">
                             </picture>
                             <p>
@@ -208,8 +194,8 @@
                     </section>
 
                     <!--We can nest lists, see below-->
-                    <section id="Skill" class="col m-3">
-                        <h2 id="Skills" class="col m-3">Skills</h2>
+                    <section id="skill" class="col m-3">
+                        <h2 id="skills" class="col m-3">Skills</h2>
                         <ol>
                             <li class="h4">Surfing</li>
 
@@ -258,6 +244,7 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner justify-content-center">
+                <h2 id="interests" class="col m-3 light">Interests</h2>
                 <div class="carousel-item active w-100">
 
                     <img src="/images/benDj.jpg" class=" img-fluid d-block override-interests" alt="Benjamin DJ">
@@ -304,7 +291,7 @@
 
 
     </main>
-    <footer id="Footer" class="my-3">
+    <footer id="footer" class="my-3">
 
         <div class="row override-card">
             <div class="col-sm-4 p-5 m-auto">
@@ -312,7 +299,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Get in touch</h5>
                         <p class="card-text">If you are interested in getting in touch click below</p>
-                        <a href="mailto:bloggenberg97@gmail.com" class="btn btn-dark">Email Benjamin</a>
+                        <button href="mailto:bloggenberg97@gmail.com" class="btn btn-dark">Email Benjamin</button>
                     </div>
                 </div>
             </div>
