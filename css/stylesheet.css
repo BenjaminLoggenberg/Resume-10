@@ -89,7 +89,7 @@ header {
 }
 
 #heading {
-  background-image: url("/images/backgroundImage.jpg");
+  background-image: url("../images/backgroundImage.jpg");
 }
 
 #topSection {
@@ -137,7 +137,7 @@ main {
 }
 
 footer {
-  background-image: url("/images/footerBackground.jpg");
+  background-image: url("../images/footerBackground.jpg");
   color: #353535;
   background-color: #284B63;
   text-align: center;
